@@ -36,7 +36,7 @@ body {
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
-    color: rgb(255, 239, 118);
+    color: yellow;
 }
 
 .banner-p {
@@ -49,7 +49,7 @@ body {
     border: none;
     padding: 16px 25px;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 225, 0);
+    background-color: yellow;
     border-radius: 5px;
 }
 
@@ -85,7 +85,6 @@ body {
 
 }
 
-
 .link-button {
     display: block;
     text-decoration: none;
@@ -115,8 +114,6 @@ body {
 
 .card {
     background-color: rgb(255, 255, 255);
-    /* width: 312px;
-    height: 362px; */
     border-radius: 10px;
     border: 1px solid gray;
 }
@@ -147,6 +144,23 @@ body {
     margin-right: 30px;
 }
 
+/* view-link */
+
+.view-all-part {
+    margin: 30px;
+    display: none;
+}
+
+.view-link-button {
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    padding: 16px 25px;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 5px;
+}
+
 /******************* footer-portion ******************/
 
 .footer-portion {
@@ -165,7 +179,7 @@ body {
 }
 
 .goal {
-    color: white;
+    color: yellow;
     margin-top: 100px;
 }
 
@@ -190,4 +204,78 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+}
+
+
+/******************* tablet version  ****************/
+
+/* big-portion */
+
+@media screen and (max-width: 1100px) {
+
+    /* banner section */
+
+    .banner {}
+
+    .player-info,
+    .player-image {
+        width: 300px;
+    }
+
+    .player-info {
+        padding: 20px;
+    }
+
+    .banner-titel {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: yellow;
+    }
+
+    .banner-p {
+        text-overflow: ellipsis;
+    }
+
+
+    .watch-button {
+        font-size: 20px;
+        padding: 12px 20px;
+        border-radius: 5px;
+    }
+
+
+
+    /* big .big-portion */
+    .big-portion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigations {
+        flex-direction: row;
+        background-color: white;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .link-button {
+        border: 1px solid gray;
+    }
+
+    .right-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .last-3 {
+        display: none;
+    }
+
+    .view-all-part {
+        display: inline;
+    }
 }
