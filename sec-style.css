@@ -1,7 +1,4 @@
 /************ css common utilities ************/
-body {
-    background-color: white;
-}
 
 /************ right matches portion ************/
 
@@ -42,4 +39,21 @@ body {
 
 .red-button {
     background-color: white;
+}
+
+
+/******************* tablet version  ****************/
+
+@media screen and (max-width: 1100px) {
+    .right-matches {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/******************* mobile version  ****************/
+
+@media screen and (max-width: 778px) {
+    .right-matches {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

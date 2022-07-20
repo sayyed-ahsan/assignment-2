@@ -64,7 +64,6 @@ body {
 .big-portion {
     display: flex;
     justify-content: space-between;
-    /* width: 1333px; */
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
@@ -144,7 +143,7 @@ body {
     margin-right: 30px;
 }
 
-/* view-link */
+/* view-link-button */
 
 .view-all-part {
     margin: 30px;
