@@ -21,7 +21,8 @@
     padding-top: 50px;
 }
 
-.match-time {
+.match-time,
+.info-title {
     text-align: center;
 }
 
