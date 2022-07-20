@@ -1,0 +1,45 @@
+/************ css common utilities ************/
+body {
+    background-color: white;
+}
+
+/************ right matches portion ************/
+
+.right-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.match-cards {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid rgb(220, 220, 220);
+    width: 312px;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.info-title {
+    text-align: center;
+}
+
+.match-time {
+    text-align: center;
+}
+
+/* button color change */
+
+.yello-button {
+    background-color: yellow;
+}
+
+.red-button {
+    background-color: white;
+}
