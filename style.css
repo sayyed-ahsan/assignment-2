@@ -1,4 +1,5 @@
 /************ css common utilities ************/
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -68,7 +69,6 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-
 /* left-navigations */
 
 .navigations {
@@ -81,7 +81,6 @@ body {
     width: 280px;
     border-radius: 10px;
     margin-right: 24px;
-
 }
 
 .link-button {
@@ -206,7 +205,6 @@ body {
     color: white;
 }
 
-
 /******************* tablet version  ****************/
 
 /* big-portion */
@@ -235,16 +233,14 @@ body {
 
     }
 
-
     .watch-button {
         font-size: 20px;
         padding: 12px 20px;
         border-radius: 5px;
     }
 
-
-
     /* big .big-portion */
+
     .big-portion {
         display: flex;
         flex-direction: column;
@@ -282,6 +278,7 @@ body {
 @media screen and (max-width: 778px) {
 
     /* banner section */
+
     .banner {
         flex-direction: column;
         align-items: center;
@@ -303,7 +300,6 @@ body {
         font-size: 16px;
     }
 
-
     /* big .big-portion */
 
     .navigations {
@@ -312,7 +308,6 @@ body {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .red-button {
@@ -331,5 +326,4 @@ body {
         display: block;
         margin-bottom: 15px;
     }
-
 }

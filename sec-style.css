@@ -1,5 +1,3 @@
-/************ css common utilities ************/
-
 /************ right matches portion ************/
 
 .right-matches {
@@ -23,10 +21,6 @@
     padding-top: 50px;
 }
 
-.info-title {
-    text-align: center;
-}
-
 .match-time {
     text-align: center;
 }
@@ -40,7 +34,6 @@
 .red-button {
     background-color: white;
 }
-
 
 /******************* tablet version  ****************/
 
