@@ -38,6 +38,27 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     color: yellow;
+    animation-name: title-color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-color-change {
+    0% {
+        color: rgb(46, 253, 70);
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: rgb(255, 0, 0);
+    }
+
+    100% {
+        color: rgb(0, 255, 247);
+    }
 }
 
 .banner-p {
@@ -52,6 +73,32 @@ body {
     color: rgb(0, 0, 0);
     background-color: yellow;
     border-radius: 5px;
+    transition: transform 2s;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: rgb(46, 253, 70);
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    100% {
+        background-color: rgb(0, 255, 247);
+    }
+}
+
+.watch-button:hover {
+    transform: rotate(-1080deg);
 }
 
 /************ main big portion ************/
